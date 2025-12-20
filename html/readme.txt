@@ -1,0 +1,1 @@
+Those folder contains only .html
