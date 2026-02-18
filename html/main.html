@@ -12,12 +12,27 @@
             line-height: 1.6;
         }
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
             background: white;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .content {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+        .text {
+            flex: 2;
+        }
+        .image {
+            flex: 1;
+        }
+        .image img {
+            width: 100%;
+            border-radius: 10px;
         }
         h1 {
             color: #2c3e50;
@@ -26,10 +41,7 @@
             color: #34495e;
             margin-top: 20px;
         }
-        p {
-            color: #555;
-        }
-        ul {
+        p, ul {
             color: #555;
         }
         footer {
@@ -45,50 +57,59 @@
 <div class="container">
     <h1>Why Sleep is Essential for Success</h1>
 
-    <p>
-        Sleep is not just a time for rest—it is a powerful tool that directly impacts
-        your productivity, mental clarity, and overall performance. Many successful
-        people prioritize quality sleep because it helps them operate at their best.
-    </p>
+    <div class="content">
+        <div class="text">
+            <p>
+                Sleep is not just a time for rest—it is a powerful tool that directly impacts
+                your productivity, mental clarity, and overall performance. Many successful
+                people prioritize quality sleep because it helps them operate at their best.
+            </p>
 
-    <h2>1. Boosts Brain Function</h2>
-    <p>
-        During sleep, your brain processes information, strengthens memory, and improves
-        problem-solving skills. Well-rested individuals think faster and make better decisions.
-    </p>
+            <h2>1. Boosts Brain Function</h2>
+            <p>
+                During sleep, your brain processes information, strengthens memory, and improves
+                problem-solving skills. Well-rested individuals think faster and make better decisions.
+            </p>
 
-    <h2>2. Improves Focus and Productivity</h2>
-    <p>
-        Lack of sleep reduces concentration and increases mistakes. Getting 7–9 hours
-        of sleep helps you stay alert, efficient, and motivated throughout the day.
-    </p>
+            <h2>2. Improves Focus and Productivity</h2>
+            <p>
+                Lack of sleep reduces concentration and increases mistakes. Getting 7–9 hours
+                of sleep helps you stay alert, efficient, and motivated throughout the day.
+            </p>
 
-    <h2>3. Supports Emotional Stability</h2>
-    <p>
-        Proper sleep helps regulate emotions and reduces stress. People who sleep well
-        are more resilient and better equipped to handle challenges.
-    </p>
+            <h2>3. Supports Emotional Stability</h2>
+            <p>
+                Proper sleep helps regulate emotions and reduces stress. People who sleep well
+                are more resilient and better equipped to handle challenges.
+            </p>
 
-    <h2>4. Enhances Physical Health</h2>
-    <ul>
-        <li>Strengthens the immune system</li>
-        <li>Improves energy levels</li>
-        <li>Reduces risk of serious illnesses</li>
-        <li>Supports overall well-being</li>
-    </ul>
+            <h2>4. Enhances Physical Health</h2>
+            <ul>
+                <li>Strengthens the immune system</li>
+                <li>Improves energy levels</li>
+                <li>Reduces risk of serious illnesses</li>
+                <li>Supports overall well-being</li>
+            </ul>
 
-    <h2>5. Encourages Creativity</h2>
-    <p>
-        Sleep refreshes the mind and allows new ideas to form. Many breakthroughs
-        happen after a good night’s rest.
-    </p>
+            <h2>5. Encourages Creativity</h2>
+            <p>
+                Sleep refreshes the mind and allows new ideas to form. Many breakthroughs
+                happen after a good night’s rest.
+            </p>
 
-    <h2>Conclusion</h2>
-    <p>
-        Success is not only about working harder—it is also about recovering smarter.
-        Prioritizing sleep gives your mind and body the strength needed to achieve
-        your goals and perform consistently at a high level.
-    </p>
+            <h2>Conclusion</h2>
+            <p>
+                Success is not only about working harder—it is also about recovering smarter.
+                Prioritizing sleep gives your mind and body the strength needed to achieve
+                your goals and perform consistently at a high level.
+            </p>
+        </div>
+
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55"
+                 alt="Person sleeping peacefully">
+        </div>
+    </div>
 
     <footer>
         © 2026 | Healthy Habits for a Successful Life
